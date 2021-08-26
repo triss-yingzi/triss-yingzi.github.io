@@ -1,0 +1,289 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .top-navigator {
+    height: 100px;
+    transform: translate(0,75%);
+   
+  }
+  
+  .link{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 150%;
+      text-align: right;
+      margin-right: 100px;
+      color:rgb(0, 0, 0);
+      text-decoration: none;
+      
+     
+      
+     
+  }
+
+  a:link {
+      color:rgb(0, 0, 0)
+     
+  }
+
+ 
+
+  .left-panel {
+   
+ 
+    height: calc(100vh - 100px);
+    width: 15%;
+    float: left;
+   
+  
+
+  }
+  .logo1 {
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+  
+  
+  .right-panel {
+   
+    height: calc(100vh - 100px);
+    width: 84%;
+    float: right;
+    
+    padding: 20px;
+  }
+  
+  
+
+  .image1 {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    background-image:url("./assets/triss\ daily.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+
+    
+  }
+  .text-block {
+    overflow:none;
+    position:relative;
+    top:50%;
+    left:50%;
+    color: rgb(0, 0, 0);
+    float:left;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    font-size: 500%;
+    font-family: 'Courier New', Courier, monospace;
+
+
+    
+  }
+ 
+
+
+
+
+  
+
+  .image1:hover {
+      opacity:0.5;
+  }
+
+  .text-block:hover{
+    
+    opacity: 1; 
+    
+  }
+ 
+  
+  .image2 {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    
+    background-image:url("./assets/woodstock.jpg");
+    background-size: cover;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .image3 {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    
+    background-image:url("./assets/small\ size\ -\ Copy.jpg");
+    background-size: contain;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .image4 {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+    background-image:url("./assets/cross.jpeg");
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .image6 {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+    background-image:url("./assets/Lantern.png");
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .image5 {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background-image:url("./assets/cover-turkey.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+ 
+  .image7 {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+    background-image:url("./assets/butshe1.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .image8 {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+    background-image:url("./assets/burger1.jpg");
+    background-size: cover;
+    background-position: 20%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+ 
+
+  .image9 {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+    background-image:url("./assets/fakenews1.png");
+    background-size: 128%;
+    background-position: 30%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .image10 {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+    background-image:url("./assets/window\ animation.png");
+    background-size: 101%;
+    background-position: top;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .image11 {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+    background-image:url("./assets/350\ org.png");
+    background-size: 101%;
+    background-position: top;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .image12 {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+    background-image:url("./assets/vote.JPG");
+    background-size: 125%;
+    background-position: top;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .image13 {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+    background-image:url("./assets/installation.png");
+    background-size: 120%;
+    background-position: top;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+  }
+
+  .image14 {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background-image:url("./assets/babe2.jpg");
+    background-size: 100%;
+    background-position: center;
+    
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+  }
+
+  
+
+
+
+
+
+
+
+
+
+    
+
