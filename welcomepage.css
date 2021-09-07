@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    position:relative;
+    transition-duration: 0.2s;
+    transition: all 0.2s linear;
+    
+    
+  }
+  .top {
+    height: 100px;
+    transform: translate(0,-1500%);
+   
+  }
+  
+  .link{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 200%;
+      text-align: right;
+      margin-right: 7%;
+      color:rgb(0, 0, 0);
+      text-decoration: none;
+      
+     
+      
+     
+  }
+
+  a:link {
+      color:rgb(0, 0, 0);
+     
+  }
+
+  .triss{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+    text-align: left;
+    margin-left: 6%;
+    color:rgb(0, 0, 0);
+
+  }
+
+  .name{
+    height: 100px;
+    width:500px;
+    transform: translate(20%,-1633%);
+  }
+  
+
+ .slider-frame{
+      width:1740px;
+      height:1600px;
+      overflow: hidden;
+      margin-left:160px;
+      margin-top:-50px;
+     
+      
+      
+      
+  }
+
+
+ 
+
+
+@-webkit-keyframes slide_animation{
+    0%{left:0px;}
+    8%{left:0px;}
+    16%{left:1700px;}
+    24%{left:1700px;}
+    31%{left:3200px;}
+    39%{left:3200px;}
+    47%{left:4800px;}
+    55%{left:4800px;}
+    63%{left:3200px;}
+    71%{left:3200px;}
+    79%{left:1700px;}
+    87%{left:1700px;}
+    95%{left:0px;}
+    100%{left:0px;}
+    
+}
+
+.slider-images{
+    width:6400px;
+    height:1600px;
+    margin:0 0 0 -4800px;
+    position:relative;
+    
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 36s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    
+
+
+}
+
+.image-container{
+    width:1600px;
+    height:1600px;
+    position:relative;
+    float:left;
+
+}
+
+img{
+    width:1600px;
+    height:1600px;
+}

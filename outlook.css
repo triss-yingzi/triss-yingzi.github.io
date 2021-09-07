@@ -7,7 +7,7 @@
   }
   
   .top-navigator {
-    height: 100px;
+    height: 150px;
     transform: translate(0,75%);
    
   }
@@ -16,7 +16,7 @@
       font-family: 'Courier New', Courier, monospace;
       font-size: 150%;
       text-align: right;
-      margin-right: 100px;
+      margin-right: 11%;
       color:rgb(0, 0, 0);
       text-decoration: none;
       
@@ -33,10 +33,11 @@
  
 
   .left-panel {
+    margin-left:20px;
    
  
     height: calc(100vh - 100px);
-    width: 15%;
+    width: 20%;
     float: left;
    
   
@@ -49,20 +50,54 @@
         margin-right: auto;
         width: 50%;
       }
+
+      .logo2 {
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        transform: translate(0,-100%);
+        opacity:0;
+        transition-duration: 0.2s;
+        transition: all 0.2s linear;
+
+        
+      }
+
+      .logo2:hover{
+        opacity:1;
+      }
+
+  .hi{
+        margin-left: 30%;
+        margin-right: 10%;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 150%;
+        text-align: left;
+        
+        display:absolute;
+        transform: translate(0,-200%);
+
+  }
+
+  
   
   
   .right-panel {
    
     height: calc(100vh - 100px);
-    width: 84%;
+    width: 74%;
     float: right;
     
     padding: 20px;
   }
   
   
+  
 
   .image1 {
+  
     width: 300px;
     height: 200px;
     display: inline-block;
@@ -71,25 +106,70 @@
     background-size: cover;
     margin-right: 20px;
     margin-bottom: 20px;
-    
-
-    
-  }
-  .text-block {
-    overflow:none;
     position:relative;
-    top:50%;
-    left:50%;
-    color: rgb(0, 0, 0);
-    float:left;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    font-size: 500%;
-    font-family: 'Courier New', Courier, monospace;
-
+    
 
     
   }
+  
+
+
+  div.mask{
+    width:100%;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0);
+    position:absolute;
+    text-align:center;
+    line-height:200px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 255, 255,0);
+    font-size: 200%;
+    display:block;
+    transition-duration: 1s;
+    transition: all 1s linear;
+    
+  }
+
+  a#trissdaily1 {
+    color:rgb(255, 255, 255,0);
+    background-color:rgba(0, 0, 0, 0);
+    transition-duration: 0.5s;
+    transition: all 0s linear;
+   
+    
+  }
+
+
+
+  .mask:hover>a#trissdaily1{
+    display:block;
+    background-color:rgba(0, 0, 0, 0.5);
+    color:rgb(255, 255, 255,1);
+    transition: all 0.5s linear;
+
+    
+    
+    
+  }
+
+ 
+  
+ 
+  
+
+  
+
+    
+
+   
+
+
+  
+
+ 
+
+  
+
  
 
 
@@ -97,15 +177,7 @@
 
   
 
-  .image1:hover {
-      opacity:0.5;
-  }
-
-  .text-block:hover{
-    
-    opacity: 1; 
-    
-  }
+ 
  
   
   .image2 {
@@ -119,17 +191,46 @@
     margin-bottom: 20px;
   }
 
-  .image3 {
-    width: 300px;
-    height: 200px;
-    display: inline-block;
+
+  div.mask2{
+    width:300px;
+    height:200px;
+    background-color:rgba(0, 0, 0, 0);
+    position:absolute;
+    text-align:center;
+    line-height:200px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 255, 255,0);
+    font-size: 200%;
+    display:block;
+    transition-duration: 1s;
+    transition: all 1s linear;
     
-    background-image:url("./assets/small\ size\ -\ Copy.jpg");
-    background-size: contain;
-    margin-right: 20px;
-    margin-bottom: 20px;
   }
-  .image4 {
+
+  a#trissdaily2 {
+    color:rgb(255, 255, 255,0);
+    background-color:rgba(0, 0, 0, 0);
+    transition-duration: 0.5s;
+    transition: all 0s linear;
+   
+    
+  }
+
+
+
+  .mask2:hover>a#trissdaily2{
+    display:block;
+    background-color:rgba(0, 0, 0, 0.5);
+    color:rgb(255, 255, 255,1);
+    transition: all 0.5s linear;
+
+    
+    
+    
+  }
+
+  .image3 {
     width: 300px;
     height: 200px;
     display: inline-block;
@@ -142,7 +243,87 @@
     margin-bottom: 20px;
   }
 
-  .image6 {
+  div.mask3{
+    width:300px;
+    height:200px;
+    background-color:rgba(0, 0, 0, 0);
+    position:absolute;
+    text-align:center;
+    line-height:200px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 255, 255,0);
+    font-size: 200%;
+    display:block;
+    transition-duration: 1s;
+    transition: all 1s linear;
+    
+  }
+
+  a#trissdaily3 {
+    color:rgb(255, 255, 255,0);
+    background-color:rgba(0, 0, 0, 0);
+    transition-duration: 0.5s;
+    transition: all 0s linear;
+   
+    
+  }
+
+
+
+  .mask3:hover>a#trissdaily3{
+    display:block;
+    background-color:rgba(0, 0, 0, 0.5);
+    color:rgb(255, 255, 255,1);
+    transition: all 0.5s linear;
+  }
+
+
+  .image4 {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    
+    background-image:url("./assets/small\ size\ -\ Copy.jpg");
+    background-size: cover;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  div.mask4{
+    width:300px;
+    height:200px;
+    background-color:rgba(0, 0, 0, 0);
+    position:absolute;
+    text-align:center;
+    line-height:200px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 255, 255,0);
+    font-size: 200%;
+    display:block;
+    transition-duration: 1s;
+    transition: all 1s linear;
+    
+  }
+
+  a#trissdaily4 {
+    color:rgb(255, 255, 255,0);
+    background-color:rgba(0, 0, 0, 0);
+    transition-duration: 0.5s;
+    transition: all 0s linear;
+   
+    
+  }
+
+
+
+  .mask4:hover>a#trissdaily4{
+    display:block;
+    background-color:rgba(0, 0, 0, 0.5);
+    color:rgb(255, 255, 255,1);
+    transition: all 0.5s linear;
+  }
+
+  .image5 {
     width: 300px;
     height: 200px;
     display: inline-block;
@@ -155,7 +336,39 @@
     margin-bottom: 20px;
   }
 
-  .image5 {
+  div.mask5{
+    width:300px;
+    height:200px;
+    background-color:rgba(0, 0, 0, 0);
+    position:absolute;
+    text-align:center;
+    line-height:200px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 255, 255,0);
+    font-size: 200%;
+    display:block;
+    transition-duration: 1s;
+    transition: all 1s linear;
+    
+  }
+
+  a#trissdaily5 {
+    color:rgb(255, 255, 255,0);
+    background-color:rgba(0, 0, 0, 0);
+    transition-duration: 0.5s;
+    transition: all 0s linear;
+   
+    
+  }
+
+  .mask5:hover>a#trissdaily5{
+    display:block;
+    background-color:rgba(0, 0, 0, 0.5);
+    color:rgb(255, 255, 255,1);
+    transition: all 0.5s linear;
+  }
+
+  .image6 {
     width: 300px;
     height: 200px;
     display: inline-block;
@@ -165,6 +378,38 @@
     background-position: center;
     margin-right: 20px;
     margin-bottom: 20px;
+  }
+
+  div.mask6{
+    width:300px;
+    height:200px;
+    background-color:rgba(0, 0, 0, 0);
+    position:absolute;
+    text-align:center;
+    line-height:200px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 255, 255,0);
+    font-size: 200%;
+    display:block;
+    transition-duration: 1s;
+    transition: all 1s linear;
+    
+  }
+
+  a#trissdaily6 {
+    color:rgb(255, 255, 255,0);
+    background-color:rgba(0, 0, 0, 0);
+    transition-duration: 0.5s;
+    transition: all 0s linear;
+   
+    
+  }
+
+  .mask6:hover>a#trissdaily6{
+    display:block;
+    background-color:rgba(0, 0, 0, 0.5);
+    color:rgb(255, 255, 255,1);
+    transition: all 0.5s linear;
   }
  
   .image7 {
@@ -180,6 +425,38 @@
     margin-bottom: 20px;
   }
 
+  div.mask7{
+    width:300px;
+    height:200px;
+    background-color:rgba(0, 0, 0, 0);
+    position:absolute;
+    text-align:center;
+    line-height:200px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 255, 255,0);
+    font-size: 200%;
+    display:block;
+    transition-duration: 1s;
+    transition: all 1s linear;
+    
+  }
+
+  a#trissdaily7 {
+    color:rgb(255, 255, 255,0);
+    background-color:rgba(0, 0, 0, 0);
+    transition-duration: 0.5s;
+    transition: all 0s linear;
+   
+    
+  }
+
+  .mask7:hover>a#trissdaily7{
+    display:block;
+    background-color:rgba(0, 0, 0, 0.5);
+    color:rgb(255, 255, 255,1);
+    transition: all 0.5s linear;
+  }
+
   .image8 {
     width: 300px;
     height: 200px;
@@ -191,6 +468,38 @@
     background-position: 20%;
     margin-right: 20px;
     margin-bottom: 20px;
+  }
+
+  div.mask8{
+    width:300px;
+    height:200px;
+    background-color:rgba(0, 0, 0, 0);
+    position:absolute;
+    text-align:center;
+    line-height:200px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 255, 255,0);
+    font-size: 200%;
+    display:block;
+    transition-duration: 1s;
+    transition: all 1s linear;
+    
+  }
+
+  a#trissdaily8 {
+    color:rgb(255, 255, 255,0);
+    background-color:rgba(0, 0, 0, 0);
+    transition-duration: 0.5s;
+    transition: all 0s linear;
+   
+    
+  }
+
+  .mask8:hover>a#trissdaily8{
+    display:block;
+    background-color:rgba(0, 0, 0, 0.5);
+    color:rgb(255, 255, 255,1);
+    transition: all 0.5s linear;
   }
 
  
@@ -208,6 +517,38 @@
     margin-bottom: 20px;
   }
 
+  div.mask9{
+    width:300px;
+    height:200px;
+    background-color:rgba(0, 0, 0, 0);
+    position:absolute;
+    text-align:center;
+    line-height:200px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 255, 255,0);
+    font-size: 200%;
+    display:block;
+    transition-duration: 1s;
+    transition: all 1s linear;
+    
+  }
+
+  a#trissdaily9 {
+    color:rgb(255, 255, 255,0);
+    background-color:rgba(0, 0, 0, 0);
+    transition-duration: 0.5s;
+    transition: all 0s linear;
+   
+    
+  }
+
+  .mask9:hover>a#trissdaily9{
+    display:block;
+    background-color:rgba(0, 0, 0, 0.5);
+    color:rgb(255, 255, 255,1);
+    transition: all 0.5s linear;
+  }
+
   .image10 {
     width: 300px;
     height: 200px;
@@ -219,6 +560,38 @@
     background-position: top;
     margin-right: 20px;
     margin-bottom: 20px;
+  }
+
+  div.mask10{
+    width:300px;
+    height:200px;
+    background-color:rgba(0, 0, 0, 0);
+    position:absolute;
+    text-align:center;
+    line-height:200px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 255, 255,0);
+    font-size: 200%;
+    display:block;
+    transition-duration: 1s;
+    transition: all 1s linear;
+    
+  }
+
+  a#trissdaily10 {
+    color:rgb(255, 255, 255,0);
+    background-color:rgba(0, 0, 0, 0);
+    transition-duration: 0.5s;
+    transition: all 0s linear;
+   
+    
+  }
+
+  .mask10:hover>a#trissdaily10{
+    display:block;
+    background-color:rgba(0, 0, 0, 0.5);
+    color:rgb(255, 255, 255,1);
+    transition: all 0.5s linear;
   }
 
   .image11 {
@@ -234,6 +607,38 @@
     margin-bottom: 20px;
   }
 
+  div.mask11{
+    width:300px;
+    height:200px;
+    background-color:rgba(0, 0, 0, 0);
+    position:absolute;
+    text-align:center;
+    line-height:200px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 255, 255,0);
+    font-size: 200%;
+    display:block;
+    transition-duration: 1s;
+    transition: all 1s linear;
+    
+  }
+
+  a#trissdaily11 {
+    color:rgb(255, 255, 255,0);
+    background-color:rgba(0, 0, 0, 0);
+    transition-duration: 0.5s;
+    transition: all 0s linear;
+   
+    
+  }
+
+  .mask11:hover>a#trissdaily11{
+    display:block;
+    background-color:rgba(0, 0, 0, 0.5);
+    color:rgb(255, 255, 255,1);
+    transition: all 0.5s linear;
+  }
+
   .image12 {
     width: 300px;
     height: 200px;
@@ -245,6 +650,38 @@
     background-position: top;
     margin-right: 20px;
     margin-bottom: 20px;
+  }
+
+  div.mask12{
+    width:300px;
+    height:200px;
+    background-color:rgba(0, 0, 0, 0);
+    position:absolute;
+    text-align:center;
+    line-height:200px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 255, 255,0);
+    font-size: 200%;
+    display:block;
+    transition-duration: 1s;
+    transition: all 1s linear;
+    
+  }
+
+  a#trissdaily12 {
+    color:rgb(255, 255, 255,0);
+    background-color:rgba(0, 0, 0, 0);
+    transition-duration: 0.5s;
+    transition: all 0s linear;
+   
+    
+  }
+
+  .mask12:hover>a#trissdaily12{
+    display:block;
+    background-color:rgba(0, 0, 0, 0.5);
+    color:rgb(255, 255, 255,1);
+    transition: all 0.5s linear;
   }
 
   .image13 {
@@ -276,8 +713,7 @@
   }
 
   
-
-
+  
 
 
 
